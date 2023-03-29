@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c5e0cf69.css",
-    "main.js": "/static/js/main.9d2a47d1.js",
+    "main.js": "/static/js/main.40fdf97c.js",
     "static/media/profile.jpg": "/static/media/profile.5ebbc6832d33a9b5d761.jpg",
     "static/media/vercel.jpg": "/static/media/vercel.d2d98c6638c82aa607d3.jpg",
     "static/media/podcast_jordan-peterson.jpg": "/static/media/podcast_jordan-peterson.68c2340ad83dcf46529c.jpg",
@@ -21,10 +21,10 @@
     "static/media/polygon-scatter.svg": "/static/media/polygon-scatter.7e5f0b7d85ad3033d6d36dae4ee1cdc4.svg",
     "index.html": "/index.html",
     "main.c5e0cf69.css.map": "/static/css/main.c5e0cf69.css.map",
-    "main.9d2a47d1.js.map": "/static/js/main.9d2a47d1.js.map"
+    "main.40fdf97c.js.map": "/static/js/main.40fdf97c.js.map"
   },
   "entrypoints": [
     "static/css/main.c5e0cf69.css",
-    "static/js/main.9d2a47d1.js"
+    "static/js/main.40fdf97c.js"
   ]
 }
