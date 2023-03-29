@@ -1,16 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.51bdbf96.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.c5e0cf69.css",
+    "main.js": "/static/js/main.9d2a47d1.js",
+    "static/media/profile.jpg": "/static/media/profile.5ebbc6832d33a9b5d761.jpg",
+    "static/media/vercel.jpg": "/static/media/vercel.d2d98c6638c82aa607d3.jpg",
+    "static/media/podcast_jordan-peterson.jpg": "/static/media/podcast_jordan-peterson.68c2340ad83dcf46529c.jpg",
+    "static/media/podcast_modern-wisdom.jpg": "/static/media/podcast_modern-wisdom.e0edfb3a2ec753a56219.jpg",
+    "static/media/react.png": "/static/media/react.f3e576ba08e6be927148.png",
+    "static/media/podcast_joe-rogan.jpg": "/static/media/podcast_joe-rogan.e26d78fc96a78e1df7e0.jpg",
+    "static/media/podcast_lex-fridman.jpg": "/static/media/podcast_lex-fridman.0cc7a72e510b62d272b4.jpg",
+    "static/media/instagram_bw.png": "/static/media/instagram_bw.ac32ec0a111aeba03298.png",
+    "static/media/css.png": "/static/media/css.e31e30fbd381c3f058df.png",
+    "static/media/twitter_bw.png": "/static/media/twitter_bw.67ad063d90a28a5bdecc.png",
+    "static/media/github.png": "/static/media/github.f11021803f68852df283.png",
+    "static/media/twitter.png": "/static/media/twitter.894988327f8d68209e91.png",
+    "static/media/html.png": "/static/media/html.6e5363d5de526dec4f8a.png",
+    "static/media/email.png": "/static/media/email.9d4fb065e6679439a9a3.png",
+    "static/media/linkedin_bw.png": "/static/media/linkedin_bw.92380c03cc82f139a166.png",
+    "static/media/Logo.svg": "/static/media/Logo.40ed1fb6bbd586087227712cc913d608.svg",
+    "static/media/polygon-scatter.svg": "/static/media/polygon-scatter.7e5f0b7d85ad3033d6d36dae4ee1cdc4.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.51bdbf96.js.map": "/static/js/main.51bdbf96.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.c5e0cf69.css.map": "/static/css/main.c5e0cf69.css.map",
+    "main.9d2a47d1.js.map": "/static/js/main.9d2a47d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.51bdbf96.js"
+    "static/css/main.c5e0cf69.css",
+    "static/js/main.9d2a47d1.js"
   ]
 }
