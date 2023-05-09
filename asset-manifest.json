@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.56a58cae.css",
-    "main.js": "/static/js/main.c534845e.js",
+    "main.css": "/static/css/main.d84d964b.css",
+    "main.js": "/static/js/main.b74ecc28.js",
     "static/media/profile.jpg": "/static/media/profile.5ebbc6832d33a9b5d761.jpg",
     "static/media/vercel.jpg": "/static/media/vercel.d2d98c6638c82aa607d3.jpg",
     "static/media/podcast_jordan-peterson.jpg": "/static/media/podcast_jordan-peterson.68c2340ad83dcf46529c.jpg",
@@ -20,11 +20,11 @@
     "static/media/Logo.svg": "/static/media/Logo.40ed1fb6bbd586087227712cc913d608.svg",
     "static/media/polygon-scatter.svg": "/static/media/polygon-scatter.7e5f0b7d85ad3033d6d36dae4ee1cdc4.svg",
     "index.html": "/index.html",
-    "main.56a58cae.css.map": "/static/css/main.56a58cae.css.map",
-    "main.c534845e.js.map": "/static/js/main.c534845e.js.map"
+    "main.d84d964b.css.map": "/static/css/main.d84d964b.css.map",
+    "main.b74ecc28.js.map": "/static/js/main.b74ecc28.js.map"
   },
   "entrypoints": [
-    "static/css/main.56a58cae.css",
-    "static/js/main.c534845e.js"
+    "static/css/main.d84d964b.css",
+    "static/js/main.b74ecc28.js"
   ]
 }
