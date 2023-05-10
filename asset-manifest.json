@@ -1,14 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.d84d964b.css",
-    "main.js": "/static/js/main.b74ecc28.js",
+    "main.css": "/static/css/main.5ec5a6d9.css",
+    "main.js": "/static/js/main.d16c25f7.js",
+    "static/media/Faizan_Hamid_Resume.pdf": "/static/media/Faizan_Hamid_Resume.fe2c540123ea5ef7bb61.pdf",
     "static/media/profile.jpg": "/static/media/profile.5ebbc6832d33a9b5d761.jpg",
     "static/media/vercel.jpg": "/static/media/vercel.d2d98c6638c82aa607d3.jpg",
-    "static/media/podcast_jordan-peterson.jpg": "/static/media/podcast_jordan-peterson.68c2340ad83dcf46529c.jpg",
-    "static/media/podcast_modern-wisdom.jpg": "/static/media/podcast_modern-wisdom.e0edfb3a2ec753a56219.jpg",
     "static/media/react.png": "/static/media/react.f3e576ba08e6be927148.png",
-    "static/media/podcast_joe-rogan.jpg": "/static/media/podcast_joe-rogan.e26d78fc96a78e1df7e0.jpg",
-    "static/media/podcast_lex-fridman.jpg": "/static/media/podcast_lex-fridman.0cc7a72e510b62d272b4.jpg",
     "static/media/instagram_bw.png": "/static/media/instagram_bw.ac32ec0a111aeba03298.png",
     "static/media/css.png": "/static/media/css.e31e30fbd381c3f058df.png",
     "static/media/twitter_bw.png": "/static/media/twitter_bw.67ad063d90a28a5bdecc.png",
@@ -20,11 +17,11 @@
     "static/media/Logo.svg": "/static/media/Logo.40ed1fb6bbd586087227712cc913d608.svg",
     "static/media/polygon-scatter.svg": "/static/media/polygon-scatter.7e5f0b7d85ad3033d6d36dae4ee1cdc4.svg",
     "index.html": "/index.html",
-    "main.d84d964b.css.map": "/static/css/main.d84d964b.css.map",
-    "main.b74ecc28.js.map": "/static/js/main.b74ecc28.js.map"
+    "main.5ec5a6d9.css.map": "/static/css/main.5ec5a6d9.css.map",
+    "main.d16c25f7.js.map": "/static/js/main.d16c25f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.d84d964b.css",
-    "static/js/main.b74ecc28.js"
+    "static/css/main.5ec5a6d9.css",
+    "static/js/main.d16c25f7.js"
   ]
 }
