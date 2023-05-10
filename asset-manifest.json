@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.326312ba.css",
-    "main.js": "/static/js/main.7133512f.js",
+    "main.css": "/static/css/main.243955cc.css",
+    "main.js": "/static/js/main.49e6c26a.js",
     "static/media/Faizan_Hamid_Resume.pdf": "/static/media/Faizan_Hamid_Resume.fe2c540123ea5ef7bb61.pdf",
     "static/media/profile.jpg": "/static/media/profile.5ebbc6832d33a9b5d761.jpg",
     "static/media/vercel.jpg": "/static/media/vercel.d2d98c6638c82aa607d3.jpg",
     "static/media/react.png": "/static/media/react.f3e576ba08e6be927148.png",
-    "static/media/instagram_bw.png": "/static/media/instagram_bw.ac32ec0a111aeba03298.png",
     "static/media/css.png": "/static/media/css.e31e30fbd381c3f058df.png",
     "static/media/twitter_bw.png": "/static/media/twitter_bw.67ad063d90a28a5bdecc.png",
     "static/media/github.png": "/static/media/github.f11021803f68852df283.png",
@@ -17,11 +16,11 @@
     "static/media/Logo.svg": "/static/media/Logo.40ed1fb6bbd586087227712cc913d608.svg",
     "static/media/polygon-scatter.svg": "/static/media/polygon-scatter.7e5f0b7d85ad3033d6d36dae4ee1cdc4.svg",
     "index.html": "/index.html",
-    "main.326312ba.css.map": "/static/css/main.326312ba.css.map",
-    "main.7133512f.js.map": "/static/js/main.7133512f.js.map"
+    "main.243955cc.css.map": "/static/css/main.243955cc.css.map",
+    "main.49e6c26a.js.map": "/static/js/main.49e6c26a.js.map"
   },
   "entrypoints": [
-    "static/css/main.326312ba.css",
-    "static/js/main.7133512f.js"
+    "static/css/main.243955cc.css",
+    "static/js/main.49e6c26a.js"
   ]
 }
