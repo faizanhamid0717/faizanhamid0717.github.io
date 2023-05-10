@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ec5a6d9.css",
-    "main.js": "/static/js/main.d16c25f7.js",
+    "main.css": "/static/css/main.326312ba.css",
+    "main.js": "/static/js/main.b1dc3205.js",
     "static/media/Faizan_Hamid_Resume.pdf": "/static/media/Faizan_Hamid_Resume.fe2c540123ea5ef7bb61.pdf",
     "static/media/profile.jpg": "/static/media/profile.5ebbc6832d33a9b5d761.jpg",
     "static/media/vercel.jpg": "/static/media/vercel.d2d98c6638c82aa607d3.jpg",
@@ -17,11 +17,11 @@
     "static/media/Logo.svg": "/static/media/Logo.40ed1fb6bbd586087227712cc913d608.svg",
     "static/media/polygon-scatter.svg": "/static/media/polygon-scatter.7e5f0b7d85ad3033d6d36dae4ee1cdc4.svg",
     "index.html": "/index.html",
-    "main.5ec5a6d9.css.map": "/static/css/main.5ec5a6d9.css.map",
-    "main.d16c25f7.js.map": "/static/js/main.d16c25f7.js.map"
+    "main.326312ba.css.map": "/static/css/main.326312ba.css.map",
+    "main.b1dc3205.js.map": "/static/js/main.b1dc3205.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ec5a6d9.css",
-    "static/js/main.d16c25f7.js"
+    "static/css/main.326312ba.css",
+    "static/js/main.b1dc3205.js"
   ]
 }
