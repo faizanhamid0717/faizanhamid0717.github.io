@@ -1,11 +1,16 @@
 .hero {
 	display: flex;
 	font-family: var(--FF);
-	background-color: black;
-	min-height: 100vh;
+	background-color: rgb(4, 3, 3);
+	min-height: 90vh;
+	width: 97%;
 	align-items: center;
-
+	/* border: 2px solid white; */
+	margin-left: 25px;
+	/* padding-left: 20px; */
+	
 }
+
 .content {
 	display: flex;
 	flex-direction: column;
@@ -13,12 +18,20 @@
 	padding-left: 60px;
 	align-items: center;
 }
+
 .content .salutation {
 	color:orange;
 	font-size: 0.8rem;
+	font-weight: 900;
+	padding-top: 35px;
+	
 }
+/* .content .salutation::last-letter{
+	color: white;
+} */
 .content .iam {
-	color:orange
+	color:orange;
+    font-weight: 500;
 }
 
 
@@ -36,7 +49,7 @@
 	font-weight: 300;
 	font-weight: bold;
 }
-.content .about {
+.content .homes {
 	color: #fff;
 	font-size: 1rem;
 	font-weight: 300;
@@ -64,8 +77,8 @@
 	position: relative;
 }
 .image .profile-img-div {
-	width: 295px;
-	height: 295px;
+	width: 286px;
+	height: 286px;
 	/* border-radius: 50%; */
 	z-index: 10;
 	display: flex;
@@ -80,8 +93,8 @@
 .profile-img-div .lines {
 	position: absolute;
     background: linear-gradient(transparent, orange, var(--BLUE-TEXT-LIGHT), transparent);
-    height: 350px;
-    width: 500px;
+    height: 550px;
+    width: 700px;
     top: 50%;
     right: 50%;
 	transform: translate(50%, -50%);
@@ -90,7 +103,7 @@
 .image .home-img {
 	width: 280px;
 	border: 2px solid var(--BLUE-TEXT);
-	/* border-radius: 50%; */
+	border-radius: 5%;
 	z-index: 5;
 }
 .image .polygons {
@@ -119,19 +132,29 @@
 	justify-content: center;
 	align-items: center;
 	padding: 10px;
-	border-radius: 30%;
-	border: 1px solid orange;
+	border-radius: 5%;
+	border: 2px solid orange;
 	transition: 0.5s;
-	box-shadow: 0px 0px 15px var(--BLUE-TEXT-LIGHT);
+	/* box-shadow: 0px 0px 15px var(--BLUE-TEXT-LIGHT); */
 	text-decoration: none;
-	color: white;
+	color:black;
+	font-weight: 800;
 }
+.social:nth-child(1) {
+	background-color: hsla(0, 0%, 100%, 0.841);
+}
+
+.social:nth-child(2) {
+	background-color: hsla(0, 0%, 100%, 0.841);
+}
+
 .social:nth-child(3) {
 	background-color: hsla(0, 0%, 100%, 0.841);
 }
+
 .social:hover {
-	transform: translateY(-50%);
-	box-shadow: 0px 0px 30px #fff;
+	transform: translateY(-20%);
+	box-shadow: 0px 0px 30px #b68d06a3;
 	border-color: #fff;
 }
 @media screen and (max-width: 700px) {

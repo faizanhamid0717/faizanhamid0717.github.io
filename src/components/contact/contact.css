@@ -22,15 +22,15 @@ form input::placeholder, form textarea::placeholder {
     font-style: normal;
 }
 form input, form textarea {
-    background-color: var(--BG-COLOR-1);
-    color: #fff;
+    background-color: black;
+    color:white;
     padding: 20px;
     border: none;
     outline: none;
     width: 400px;
     font-family: var(--FF);
     border-radius: 10px;
-    border: 1px solid var(--BLUE-TEXT-LIGHT);
+    border: 1px solid rgb(226, 184, 105);
     font-size: 1.1rem;
     font-weight: 300;
 }
@@ -40,7 +40,7 @@ form input:focus, form textarea:focus {
 }
 
 form .send {
-    background-color: var(--BG-COLOR-1);
+    background-color: black;
     color: #fff;
     font-size: 1rem;
     padding: 20px;
@@ -48,7 +48,7 @@ form .send {
     border-radius: 10px;
     width: 200px;
     cursor: pointer;
-    border: 1px solid var(--BLUE-TEXT-LIGHT);
+    border: 1px solid rgb(237, 193, 110);
     transition: 0.3s;
     margin-top: 40px;
 }
@@ -58,7 +58,7 @@ form .send {
 .contact h2 {
     font-weight: 300;
 	font-size: 2.2rem;
-	color: #6abdf9;
+	color: orange;
     font-family: var(--FF-1);
     padding-bottom: 10px;
 }
@@ -66,9 +66,10 @@ form .send {
     content: "";
     height: 1px;
     width: 100%;
-    background-color: #6abdf9;
+    background-color:orange;
     display: inline-block;
     box-shadow: 0px 5px 10px #6abdf97c;
+    margin-bottom: 20px;
 }
 .status {
     color: yellowgreen;

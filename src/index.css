@@ -4,5 +4,7 @@
     }
 }
 body, html {
-    background-color: var(--BG-COLOR);
+    /* background-color: var(--BG-COLOR); */
+    background-color: black;
+    width: 97%;
 }

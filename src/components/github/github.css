@@ -1,7 +1,7 @@
 
-.github-container {
+.react-activity-calendar {
 	/* border: 1px solid white; */
-	/* width: 1250px; */
+	/* width:800px; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -11,20 +11,21 @@
 	color: #fff;
 	padding: 80px 60px 0px 60px;
 }
-.github-container h1 {
+.react-activity-calendar h1 {
 	font-weight: 600;
 	font-size: 2.2rem;
-	color: #6abdf9;
+	color: orange;
     font-family: var(--FF-1);
     padding-bottom: 10px;
 }
-.github-container h1::after {
+.react-activity-calendar h1::after {
     content: "";
     height: 1px;
     width: 100%;
-    background-color: #6abdf9;
+    background-color: orange;
     display: inline-block;
     box-shadow: 0px 5px 10px #6abdf97c;
+	margin-bottom: 20px;
 }
 
 .gridcontainer{

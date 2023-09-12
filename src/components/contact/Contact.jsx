@@ -4,57 +4,66 @@ import emailjs from "@emailjs/browser";
 
 const Contact = () => {
 	const form = useRef();
-	const [name, setName] = React.useState("");
+	
 	const [email, setEmail] = React.useState("");
+	const [phone, setPhone] = React.useState("");
 	const [message, setMessage] = React.useState("");
 	const [submitStatus, setSubmitStatus] = React.useState(false);
 	console.log(form.current);
+	
 	const sendEmail = (e) => {
 		setSubmitStatus(true)
 		e.preventDefault();
 		emailjs
 			.sendForm(
-				"service_opd3vb8",
-				"template_g4itzh2",
+				"service_h0fxv5y",
+				"template_q4o3rsc",
 				form.current,
-				"ko5VcLfHmHXM0QfcL"
+				"ph565lG33yXZKRkUT"
 			)
 			.then(
-				(result) => {
-					console.log(result.text);
+				(res) => {
+					console.log(res.text);
 				},
 				(error) => {
 					console.log(error.text);
 				}
 			);
-		setName("");
+		
 		setEmail("");
-		setMessage("");
-		setTimeout(() => {setSubmitStatus(false)}, 5000);
+		setPhone("");
+		setMessage("")
+		setTimeout(() => {setSubmitStatus(false)}, 3000);
 	};
 	return (
-		<div className="contact" id="contact">
+		<div className="nav-link contact">
+		<div className="contact" id="contact"  >
 			<h2>Contact me </h2>
 			<form ref={form} onSubmit={sendEmail}>
-				<input
-					type="text"
-					className="name"
-					placeholder="Full Name"
-					name="from_name"
-					onChange={(e) => setName(e.target.value)}
-					value={name}
-					required
-				/>
+				
 				<input
 					type="email"
 					className="email"
 					placeholder="Email"
+					// id="contact-emai"
 					name="email"
 					onChange={(e) => setEmail(e.target.value)}
 					value={email}
 					required
 				/>
-				<textarea
+				<input
+					cols="10"
+					rows=""
+					className="message"
+					placeholder="Phone No"
+					// id="contact-phone"
+					name="phone"
+					value={phone}
+					onChange={(e) => setPhone(e.target.value)}
+					required
+				></input>
+              
+			  <textarea
 					cols="30"
 					rows="10"
 					className="message"
@@ -64,6 +73,7 @@ const Contact = () => {
 					onChange={(e) => setMessage(e.target.value)}
 					required
 				></textarea>
+
 				{submitStatus ? (
 					<div className="status">You message was sent successfully</div>
 				) : (
@@ -75,6 +85,7 @@ const Contact = () => {
 				</button>
 			</form>
 		</div>
+	</div>
 	);
 };
 export default Contact;

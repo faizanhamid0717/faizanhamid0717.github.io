@@ -8,19 +8,24 @@ import netlify_logo from '../../assets/netlify.png'
 import vercel_logo from '../../assets/vercel.jpg'
 import npm_logo from '../../assets/npm.png'
 import chakra_logo from '../../assets/chakra.png'
-import python_logo from '../../assets/python.png'
-// import npm_logo from '../../assets/npm.png'
-import canva_logo from '../../assets/canva.png'
-import figma_logo from '../../assets/figma.png'
-import affinity_designer_logo from '../../assets/affinity-designer.png'
+import git_logo from '../../assets/github.png'
+import postman_logo from '../../assets/postman.png'
+import typescript_logo from '../../assets/typescript.png'
+import Express_logo from  '../../assets/Express.png'
+import reduxjs_logo from  '../../assets/reduxjs.png'
+import vscode_logo from '../../assets/vscode.jpg'
+import nodejs_logo from '../../assets/nodejs.png'
+import mongodb_logo from '../../assets/mongodb.png'
+
+
 const Skills = () => {
 
 	return (
-		<div className="skills" id="skills" >
+	<div >
+		<div class="skills" id="skills" className="nav-link skills" >
 			<h1>Skills</h1>
-
-			<div className="container">
-
+			<div className="container" >
+				
 				<div className="skills-card" >
 					<div className="card">
 						<div className="image-div">
@@ -71,11 +76,33 @@ const Skills = () => {
 					</div>
 				</div>
 
+				
+
 				<div className="skills-card">
 					<div className="card">
 						<div className="image-div">
-							<img src={npm_logo} alt="react" className="skills-card-img"/>
-							<h2 className="skills-card-name">Npm</h2>
+							<img src={reduxjs_logo} alt="react" className="skills-card-img"/>
+							<h2 className="skills-card-name">Redux</h2>
+						</div>
+						
+					</div>
+				</div>
+
+				<div className="skills-card">
+					<div className="card">
+						<div className="image-div">
+							<img src={Express_logo} alt="react" className="skills-card-img"/>
+							<h2 className="skills-card-name">Express</h2>
+						</div>
+						
+					</div>
+				</div>
+
+				<div className="skills-card">
+					<div className="card">
+						<div className="image-div">
+							<img src={typescript_logo} alt="react" className="skills-card-img"/>
+							<h2 className="skills-card-name">TypeScript</h2>
 						</div>
 						
 					</div>
@@ -91,52 +118,64 @@ const Skills = () => {
 					</div>
 				</div>
 
-				<div className="skills-card" >
+				<div className="skills-card">
 					<div className="card">
 						<div className="image-div">
-							<img src={netlify_logo} alt="react" className="skills-card-img" />
-							<h2 className="skills-card-name">Netlify</h2>
+							<img src={nodejs_logo} alt="react" className="skills-card-img"/>
+							<h2 className="skills-card-name">Node.js</h2>
 						</div>
 						
 					</div>
 				</div>
 
+             
+				<div className="skills-card">
+					<div className="card">
+						<div className="image-div">
+							<img src={mongodb_logo} alt="react" className="skills-card-img"/>
+							<h2 className="skills-card-name">mongoDB</h2>
+						</div>
+						
+					</div>
+				</div>
+				
+
 				
 				{/* 8888888888 */}
 				
+				
+				<div className="more_skills"> 
+				<h1>Tools</h1> 
+					<div className="more_skill">
+						<img src={postman_logo} alt="c_logo" />
+					</div>
 
-				{/* <div className="more_skills">
 					<div className="more_skill">
-						<img src={c_logo} alt="c_logo" />
+						<img src={vscode_logo} alt="cpp_logo" />
 					</div>
-					<div className="more_skill">
-						<img src={cpp_logo} alt="cpp_logo" />
-					</div>
-					<div className="more_skill">
-						<img src={python_logo} alt="python_logo" />
-					</div>
+
 					<div className="more_skill">
 						<img src={git_logo} alt="git_logo" />
 					</div>
+					
 					<div className="more_skill">
-						<img src={github_logo} alt="github_logo" />
+						<img src={netlify_logo} alt="netlify_logo" />
 					</div>
-					{/* <div className="more_skill">
+
+					<div className="more_skill">
 						<img src={npm_logo} alt="npm_logo" />
-					</div> */}
-					{/* <div className="more_skill">
-						<img src={affinity_designer_logo} alt="affinity_designer_logo" />
 					</div>
-					<div className="more_skill">
-						<img src={canva_logo} alt="canva_logo" />
-					</div>
-					{/* <div className="more_skill">
-						<img src={figma_logo} alt="figma_logo" />
-					</div> */}
-				{/* </div>  */}
+
+					
+					
+					 
+				</div> 
 				
 
 			</div>
+
+		</div>
+
 		</div>
 	);
 };

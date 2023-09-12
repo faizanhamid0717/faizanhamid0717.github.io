@@ -16,21 +16,25 @@
     display: inline-block;
     height: 1px;
     width: 90%;
-    background-color: var(--BLUE-TEXT);
+    background-color: white;
 }
 .links {
     display: flex;
     column-gap: 30px;
+    /* border: 1px solid orange; */
 }
 .link a {
     display: flex;
     column-gap: 20px;
     color: #fff;
     text-decoration: none;
+    /* border: 1px solid orange; */
+   
 
 }
 .link a img {
     width: 20px;
+    /* border: 1px solid orange; */
 }
 .link a p {
     display: inline-block;
@@ -49,9 +53,11 @@
     justify-content: center;
     align-items: center;
     border: 1px #fff solid;
+    border: 1px solid orange;
 }
 .socials a img {
     width: 30px;
+    /* border: 1px solid orange; */
 }
 
 .email {
@@ -71,6 +77,7 @@
     border: 1px solid #fff;
     position: relative;
     cursor: pointer;
+    border: 1px solid orange;
 }
 .email p {
     position: absolute;
@@ -79,6 +86,35 @@
     transition: 0.5s;
 }
 .email:hover p {
+    opacity: 1;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 20px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.phone img {
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid orange;
+}
+.phone p {
+    position: absolute;
+    left: 40px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.phone:hover p {
     opacity: 1;
 }
 
